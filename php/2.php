@@ -1,7 +1,7 @@
 <?php
     session_start();
     //链接数据库
-	$link=mysqli_connect("localhost","root","");
+	$link=mysqli_connect("localhost","root","root");
 	//选择数据库
 	mysqli_select_db($link,"web1");
 	//设置字符集
