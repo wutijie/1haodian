@@ -1,0 +1,214 @@
+body,p,section,nav,header,h2,h3,h4,h5{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul li{
+	list-style: none;
+}
+input{
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+img{
+	border: none;
+	vertical-align: middle;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+em{
+	font-style: normal;
+}
+.center{
+	width: 1000px;
+	margin: 0 auto;
+}
+a{
+	vertical-align: top;
+}
+
+.active{
+	border: 1px solid #f00;
+}
+
+
+
+#top{
+	padding: 16px;
+	border: 1px solid #e1e1e1;
+	background: #fff;
+	position: relative;
+}
+#top img{
+	position: relative;
+	left: 150px;
+}
+#top_rig{
+	float: right;
+	margin-right: 300px;
+	font-size: 12px;
+}
+#top_rig span{
+	color: #999;
+	margin-right: 5px;
+	line-height: 18px;
+}
+#top_rig a{
+	text-decoration: none;
+	color: #06c;
+}
+#help{
+	position: absolute;
+	right: 200px;
+	top: 11px;
+	border: 1px solid transparent;
+}
+#help p{
+	width: 73px;
+	height: 24px;
+	border-bottom: 1px solid #999;
+	text-align: center;
+	line-height: 24px;
+}
+#help p a{
+	color: #333;
+}
+#help p a:hover{
+	color: #f00;
+}
+#help .p1{
+	border-bottom: 1px solid transparent;
+}
+#help .p2{
+	display: none;
+}
+
+
+
+
+
+
+h4{
+	width: 330px;
+	height: 50px;
+	color: #333;
+	font-size: 24px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#center{
+	padding-top: 30px;
+	background: url(../img/zhuce.png);
+	background: #FCFCFC;
+	border-bottom: 1px solid #e1e1e1;
+	margin-bottom: 20px;
+}
+#center div{
+	width: 332px;
+	height: 52px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#center div i{
+	position: absolute;
+	right: -30px;
+	top: 16px;
+}
+#center div input{
+	width: 310px;
+	height: 50px;
+	padding-left: 20px;
+	border: 1px solid #dedede;
+	border-radius: 3px;
+}
+#center div label{
+	margin-left: 20px;
+	line-height: 50px;
+	position: absolute;
+	left: 0;
+	color: #666;
+}
+#center div span{
+	font-size: 12px;
+	color: #333;
+	background: #e4e4e4;
+	width: 160px;
+	height: 40px;
+	padding: 10px;
+	display: inline-block;
+	position: absolute;
+	right: -200px;
+	top: -5px;
+	line-height: 20px;
+	display: none;
+}
+#center .div3 input{
+	width: 174px;
+}
+#center .div3 #btna{
+	padding: 0;
+	width: 126px;
+	background: #57565f;
+	color: #fff;
+	margin-left: 5px;
+}
+#center p{
+	height: 35px;
+	line-height: 35px;
+	font-size: 12px;
+	color: #666;
+	text-align: center;
+	margin: 5px 0;
+}
+#center p a{
+	text-decoration: none;
+	color: #06c;
+}
+#center button{
+	width: 330px;
+	height: 52px;
+	background: #ff3c3c;
+	color: #fff;
+	font-size: 16px;
+	border: 1px solid #ff3c3c;
+	border-radius: 3px;
+	display: block;
+	margin: 0 auto;
+	cursor: hand;
+	margin-bottom: 60px;
+}
+#center button:hover{
+	background: #d72226;
+}
+
+#footer{
+	background: #fff;
+}
+#footer p{
+	color: #333;
+	font-size: 12px;
+	margin-top: 10px;
+	text-align: center;
+}
+#footer p a{
+	margin: 0 8px;
+	color: #333;
+	text-decoration: none;
+}
+#footer p a:hover{
+	color: #c00;
+}
